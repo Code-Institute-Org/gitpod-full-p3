@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome USER_NAME,
 
@@ -25,6 +25,8 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 ## Updates Since The Instructional Video
 
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+
+**January 13 2021:** Add PostgreSQL server, remove legacy code. New version for Programme 3.0.
 
 **October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
