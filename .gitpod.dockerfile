@@ -19,8 +19,6 @@ RUN bash -c ". .nvm/nvm.sh && \
         
 ENV PATH=/home/gitpod/.nvm/versions/node/v${NODE_VERSION}/bin:$PATH
 
-RUN mkdir -p /workspace/.psql/data
-
 # Local environment variables
 
 ENV PORT="8080"
