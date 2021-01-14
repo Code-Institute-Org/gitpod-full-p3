@@ -5,7 +5,7 @@
 # Creates run aliases
 # Author: Matt Rudge
 
-mkdir -p /workspace/.psql/data
+clear
 echo "Setting the greeting"
 sed -i "s/USER_NAME/$GITPOD_GIT_USER_NAME/g" ${GITPOD_REPO_ROOT}/README.md
 echo "Creating .sqliterc file"
