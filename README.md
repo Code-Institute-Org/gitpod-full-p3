@@ -26,6 +26,8 @@ In Gitpod you have superuser security privileges by default. Therefore you do no
 
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
+**April 19 2021:** Migrations from .theia/ to .vscode/, removal of Prettier extension being replaced with Beautify extension (`alt + shift + F`).
+
 **January 13 2021:** Add PostgreSQL server, remove legacy code. New version for Programme 3.0.
 
 **October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
