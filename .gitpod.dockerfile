@@ -16,7 +16,11 @@ RUN bash -c ". .nvm/nvm.sh && \
         nvm install ${NODE_VERSION} && \
         nvm alias default ${NODE_VERSION} && \
         npm install -g yarn"
-        
+
+RUN echo 'alias heroku_config=". $GITPOD_REPO_ROOT/.vscode/heroku_config.sh"' >> ~/.bashrc	
+RUN echo 'alias python=python3' >> ~/.bashrc	
+RUN echo 'alias pip=pip3' >> ~/.bashrc	
+RUN echo 'alias font_fix="python3 $GITPOD_REPO_ROOT/.vscode/font_fix.py"' >> ~/.bashrc
 ENV PATH=/home/gitpod/.nvm/versions/node/v${NODE_VERSION}/bin:$PATH
 
 # Local environment variables
